@@ -51,8 +51,8 @@ spec:
               - -c
               - |
                 
-                TEAM=$(params.TEAM)
-                echo "TEAM is ${TEAM}"
+                PR=$(params.PR_NUMBER)
+                echo "PR is ${PR}"
 #                git clone https://$(params.GIT_ORGANIZATION)/$(params.GIT_CD_REPO)
 #
 #                cd $(inputs.params.GIT_CD_REPO)
